@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SignInDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RuleDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LearnWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChooseSkill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ForgotPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditInfoDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddTeacher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteAccountDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRateDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvaluateDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Listen1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ocx1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWMPPlayer4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Read1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Speak1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Write1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SignInDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuleDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LearnWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChooseSkill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ForgotPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditInfoDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TeacherDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTeacher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteAccountDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRateDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvaluateDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Listen1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ocx1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CWMPPlayer4.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Read1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Speak1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Write1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Database\logo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\logoBMP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\LearnWorld.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\trongdong.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\vang.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\xanh.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\trongdong.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\vang.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\xanh.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\br1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\br2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\br3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\br4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\br5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\br6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\login.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\IELTS.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\ICON\login.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\ICON\writting.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="database\icon\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\ICON\back.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\poster_from_postermywall5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\Untitled.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="database\bmp\bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\poster_from_postermywall2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\poster_from_postermywall3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="database\bmp\bitmap4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\poster_from_postermywall1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\poster_from_postermywall.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\logo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\background.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\Untitled3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\write.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\read.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\speak.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\listen.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\next.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\back.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\listen_selected.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\write_selected.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\read_selected.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\speak_selected.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\signin.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\register.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\register_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\signin_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\back_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\next_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\bg3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\signout.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\signout_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\finish.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\finish_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\star_gold.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\star.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\delete.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\delete_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\EditInfo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\EditInfo_Pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\EvaluateTeacher.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\EvaluateTeacher_Teacher.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\StudentRating.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\StudentRating_Preessed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\TeacherRating.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\TeacherRating_Pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\activate.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\activate_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\changepass.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\changepass_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\check.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\check_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\deactivate.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\deactivate_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\delete_pressed1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\delete1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\learning.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\learning_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\test4skill.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Database\BMP\test4skill_pressed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\LearnWorld.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LearnWorld.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

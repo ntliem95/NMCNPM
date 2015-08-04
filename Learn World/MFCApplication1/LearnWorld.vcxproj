@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B6A29C6F-FCAD-4FF7-9283-1802F9D73C95}</ProjectGuid>
+    <RootNamespace>MFCApplication1</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>LearnWorld</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ImportLibrary>/DLLStudentList.lib </ImportLibrary>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddTeacher.h" />
+    <ClInclude Include="AdminDlg.h" />
+    <ClInclude Include="ChooseSkill.h" />
+    <ClInclude Include="CommandButton.h" />
+    <ClInclude Include="CWMPPlayer4.h" />
+    <ClInclude Include="DeleteAccountDlg.h" />
+    <ClInclude Include="EditInfoDlg.h" />
+    <ClInclude Include="EvaluateDlg.h" />
+    <ClInclude Include="ForgotPass.h" />
+    <ClInclude Include="Label.h" />
+    <ClInclude Include="LearnWorld.h" />
+    <ClInclude Include="Listen1.h" />
+    <ClInclude Include="ocx1.h" />
+    <ClInclude Include="Read1.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RuleDlg.h" />
+    <ClInclude Include="SignInDlg.h" />
+    <ClInclude Include="Speak1.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StudentDlg.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TeacherDlg.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="ViewRateDlg.h" />
+    <ClInclude Include="Write1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddTeacher.cpp" />
+    <ClCompile Include="AdminDlg.cpp" />
+    <ClCompile Include="ChooseSkill.cpp" />
+    <ClCompile Include="CommandButton.cpp" />
+    <ClCompile Include="CWMPPlayer4.cpp" />
+    <ClCompile Include="DeleteAccountDlg.cpp" />
+    <ClCompile Include="EditInfoDlg.cpp" />
+    <ClCompile Include="EvaluateDlg.cpp" />
+    <ClCompile Include="ForgotPass.cpp" />
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="LearnWorld.cpp" />
+    <ClCompile Include="Listen1.cpp" />
+    <ClCompile Include="ocx1.cpp" />
+    <ClCompile Include="Read1.cpp" />
+    <ClCompile Include="RuleDlg.cpp" />
+    <ClCompile Include="SignInDlg.cpp" />
+    <ClCompile Include="Speak1.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StudentDlg.cpp" />
+    <ClCompile Include="TeacherDlg.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="ViewRateDlg.cpp" />
+    <ClCompile Include="Write1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LearnWorld.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\LearnWorld.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Database\BMP\activate.bmp" />
+    <Image Include="Database\BMP\activate_pressed.bmp" />
+    <Image Include="Database\BMP\back.bmp" />
+    <Image Include="Database\BMP\background.bmp" />
+    <Image Include="Database\BMP\back_pressed.bmp" />
+    <Image Include="Database\BMP\bg3.bmp" />
+    <Image Include="database\bmp\bitmap3.bmp" />
+    <Image Include="database\bmp\bitmap4.bmp" />
+    <Image Include="Database\BMP\br1.bmp" />
+    <Image Include="Database\BMP\br2.bmp" />
+    <Image Include="Database\BMP\br3.bmp" />
+    <Image Include="Database\BMP\br4.bmp" />
+    <Image Include="Database\BMP\br5.bmp" />
+    <Image Include="Database\BMP\br6.bmp" />
+    <Image Include="Database\BMP\changepass.bmp" />
+    <Image Include="Database\BMP\changepass_pressed.bmp" />
+    <Image Include="Database\BMP\check.bmp" />
+    <Image Include="Database\BMP\check_pressed.bmp" />
+    <Image Include="Database\BMP\deactivate.bmp" />
+    <Image Include="Database\BMP\deactivate_pressed.bmp" />
+    <Image Include="Database\BMP\delete.bmp" />
+    <Image Include="Database\BMP\delete1.bmp" />
+    <Image Include="Database\BMP\delete_pressed.bmp" />
+    <Image Include="Database\BMP\delete_pressed1.bmp" />
+    <Image Include="Database\BMP\EditInfo.bmp" />
+    <Image Include="Database\BMP\EditInfo_Pressed.bmp" />
+    <Image Include="Database\BMP\EvaluateTeacher.bmp" />
+    <Image Include="Database\BMP\EvaluateTeacher_Teacher.bmp" />
+    <Image Include="Database\BMP\finish.bmp" />
+    <Image Include="Database\BMP\finish_pressed.bmp" />
+    <Image Include="Database\BMP\IELTS.bmp" />
+    <Image Include="Database\BMP\learning.bmp" />
+    <Image Include="Database\BMP\learning_pressed.bmp" />
+    <Image Include="Database\BMP\listen.bmp" />
+    <Image Include="Database\BMP\listen_selected.bmp" />
+    <Image Include="Database\BMP\logo.bmp" />
+    <Image Include="Database\BMP\next.bmp" />
+    <Image Include="Database\BMP\next_pressed.bmp" />
+    <Image Include="Database\BMP\poster_from_postermywall.bmp" />
+    <Image Include="Database\BMP\poster_from_postermywall1.bmp" />
+    <Image Include="Database\BMP\poster_from_postermywall2.bmp" />
+    <Image Include="Database\BMP\poster_from_postermywall3.bmp" />
+    <Image Include="Database\BMP\poster_from_postermywall5.bmp" />
+    <Image Include="Database\BMP\read.bmp" />
+    <Image Include="Database\BMP\read_selected.bmp" />
+    <Image Include="Database\BMP\register.bmp" />
+    <Image Include="Database\BMP\register_pressed.bmp" />
+    <Image Include="Database\BMP\signin.bmp" />
+    <Image Include="Database\BMP\signin_pressed.bmp" />
+    <Image Include="Database\BMP\signout.bmp" />
+    <Image Include="Database\BMP\signout_pressed.bmp" />
+    <Image Include="Database\BMP\speak.bmp" />
+    <Image Include="Database\BMP\speak_selected.bmp" />
+    <Image Include="Database\BMP\star.bmp" />
+    <Image Include="Database\BMP\star_gold.bmp" />
+    <Image Include="Database\BMP\StudentRating.bmp" />
+    <Image Include="Database\BMP\StudentRating_Preessed.bmp" />
+    <Image Include="Database\BMP\TeacherRating.bmp" />
+    <Image Include="Database\BMP\TeacherRating_Pressed.bmp" />
+    <Image Include="Database\BMP\test4skill.bmp" />
+    <Image Include="Database\BMP\test4skill_pressed.bmp" />
+    <Image Include="Database\BMP\trongdong.bmp" />
+    <Image Include="Database\BMP\Untitled.bmp" />
+    <Image Include="Database\BMP\Untitled3.bmp" />
+    <Image Include="Database\BMP\vang.bmp" />
+    <Image Include="Database\BMP\write.bmp" />
+    <Image Include="Database\BMP\write_selected.bmp" />
+    <Image Include="Database\BMP\xanh.bmp" />
+    <Image Include="Database\ICON\back.ico" />
+    <Image Include="database\icon\icon2.ico" />
+    <Image Include="Database\ICON\login.ico" />
+    <Image Include="Database\ICON\writting.ico" />
+    <Image Include="Database\login.ico" />
+    <Image Include="Database\logo.ico" />
+    <Image Include="Database\logoBMP.bmp" />
+    <Image Include="Database\trongdong.bmp" />
+    <Image Include="Database\vang.bmp" />
+    <Image Include="Database\xanh.bmp" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\LearnWorld.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties _x007B_6BF52A52-394A-11D3-B153-00C04F79FAA6_x007D_="COcx1" RESOURCE_FILE="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
